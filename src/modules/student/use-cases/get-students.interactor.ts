@@ -4,7 +4,7 @@ import { Student } from "../entities/student";
 import { StudentRepository } from "./ports/student.repository";
 import { GetStudentsDTO } from "../adapters/dto/get-students";
 
-export class GetStudentInteractor implements UseCase<GetStudentsDTO, ResponseApi<Student>>{
+export class GetStudentsInteractor implements UseCase<GetStudentsDTO, ResponseApi<Student>>{
     constructor(private readonly studentRepository: StudentRepository){}
     
     execute(): Promise<ResponseApi<Student>> {

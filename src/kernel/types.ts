@@ -1,4 +1,4 @@
-export type Entity<Tidentifier extends number | string> ={
+export type Entity<Tidentifier extends string> ={
     id?: Tidentifier
 }
 

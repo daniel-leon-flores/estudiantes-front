@@ -11,7 +11,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/index',
     name: 'StudentsView',
-    component: () => import('@/modules/student/adapters/view/StudentsView.vue')
+    component: () => import('@/views/StudentsView.vue')
   }
 ]
 

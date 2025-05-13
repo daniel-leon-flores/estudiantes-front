@@ -1,5 +1,5 @@
 import { UseCase } from "@/kernel/contact";
-import { UpdateStudentDTO } from "../adapters/dto/update-student";
+import { UpdateStudentDTO } from "../entities/update-student";
 import { ResponseApi } from "@/kernel/types";
 import { Student } from "../entities/student";
 import { StudentRepository } from "./ports/student.repository";

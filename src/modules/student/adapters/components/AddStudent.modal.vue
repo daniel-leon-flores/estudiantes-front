@@ -1,8 +1,7 @@
 <template>
   <div>
-    <b-modal id="modal-1" centered hide-footer title="BootstrapVue" >Hello From My Modal!
+    <b-modal id="modal-1" centered hide-footer title="Agregar estudiante">
       <div>
-        <h3>Agregar estudiante</h3>
         <form class="my-4" action="">
           <div class="form-group">
             <label for="">Nombre: <span class="text-danger">*</span></label>
@@ -42,7 +41,7 @@
 <script lang="ts">
   import Vue from "vue";
   import  {StudentController} from "@/modules/student/adapters/students.controller";
-  import {SaveStudentDTO} from "@/modules/student/adapters/dto/save-student";
+  import {SaveStudentDTO} from "@/modules/student/entities/save-student";
 
   export default Vue.extend({
     name: 'AddStudentModal',

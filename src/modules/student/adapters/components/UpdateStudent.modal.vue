@@ -42,7 +42,7 @@
 <script lang="ts">
 import Vue from "vue";
 import {StudentController} from "@/modules/student/adapters/students.controller";
-import {UpdateStudentDTO} from "@/modules/student/adapters/dto/update-student";
+import {UpdateStudentDTO} from "@/modules/student/entities/update-student";
 export default Vue.extend({
   name:'UpdateStudentModal',
   props: {
